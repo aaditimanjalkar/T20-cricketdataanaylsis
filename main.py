@@ -1949,7 +1949,7 @@ if authentication_status:
             # Read CSV file and store the data in a list of dictionaries
         
 
-            with open('openers.csv') as csvfile:
+            with open('Finishers.csv') as csvfile:
                 players = list(csv.DictReader(csvfile))
 
             # Create a pandas DataFrame to store the added players
