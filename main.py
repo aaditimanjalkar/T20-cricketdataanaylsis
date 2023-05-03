@@ -29,7 +29,7 @@ if authentication_status:
     
     # Add a sidebar
     # st.sidebar.title("Navigation")
-    st.title("T20 Criketer Data Analysis App")
+    st.title("T20 Cricket Data Analysis App")
     st.write(f'Welcomes *{st.session_state["name"]}*')
     rad = option_menu(
             menu_title="Navigation",
