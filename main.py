@@ -57,7 +57,7 @@ if authentication_status:
     if rad =="Home":
             st.header("Introduction")
             st.write("Cricket analytics provides interesting insights into the game and predictive intelligence regarding game outcomes. Overall, this project aims to demonstrate the importance of data analysis in cricket and how it can be used to improve player and team performance. Through this analysis, we hope to provide insights that can be used by coaches, selectors, and fans to make informed decisions about their favorite players and teams.")
-            st.image("Image.png")
+            st.image("img.png")
             
                     
 
