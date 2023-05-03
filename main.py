@@ -29,7 +29,7 @@ if authentication_status:
     
     # Add a sidebar
     # st.sidebar.title("Navigation")
-    st.title("T20 Cricket Data Analysis App")
+    st.title("T20 Criketer Data Analysis App")
     st.write(f'Welcomes *{st.session_state["name"]}*')
     rad = option_menu(
             menu_title="Navigation",
@@ -1969,7 +1969,7 @@ if authentication_status:
                 if player is not None and player.get('ï»¿name') is not None and player.get('ï»¿name').lower() == query.lower():
                     # Display the player details
                     st.write("Player Found")
-                    # st.write(player)
+                    st.write(player)
                     player_found = True
                     break
 
